@@ -14,6 +14,6 @@ This is my [QGIS file](FogbyNeighborhood.qgz) with the fog analysis.
 
 ## Acknowledgements
 
-Thanks to the [GIS Stack Exchange](https://gis.stackexchange.com/questions/311573/how-do-i-turn-a-fog-belt-zone-raster-map-into-a-geographic-map-of-expected-fog/311580?noredirect=1#comment507826_311580) for helping with analytics the summertime fog raster files.
+Thanks to the [GIS Stack Exchange](https://gis.stackexchange.com/questions/311573/how-do-i-turn-a-fog-belt-zone-raster-map-into-a-geographic-map-of-expected-fog/311580?noredirect=1#comment507826_311580) for helping with analysis on the summertime fog raster files.
 
-Additionally, thank you to Dr. Alicia Torregrosa from the Western Geographic Science Center for explaining the summertime fog research. I encourage you to see her excellent [map](http://journal.baygeo.org/karlthefog/) depicting fog and low cloud cover in the San Francisco Bay Area.
+Also, thank you to Dr. Alicia Torregrosa from the Western Geographic Science Center for explaining the summertime fog research. I encourage you to take a look at her excellent [map](http://journal.baygeo.org/karlthefog/) depicting fog and low cloud cover in the San Francisco Bay Area.
