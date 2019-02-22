@@ -6,9 +6,9 @@ This is the data source for `crimes per capita` in my project "Understanding San
 
 1: Download the crime data available through DataSF's [portal](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/data).
 
-2: Generate a table with every crime and its set of [coordinates](/CrimesPerCapita.R) to assign each crime to a neighborhood. 
+2: Generate a table with every crime and its set of [coordinates](CrimesPerCapita.R) to assign each crime to a neighborhood. 
 
-3: Match each crime to a neighborhood, with the Python [script](/incidentPlusNeighborhood.py).
+3: Match each crime to a neighborhood, with the Python [script](incidentPlusNeighborhood.py).
 
 4: Generate a table with each neighborhood and the per capita crimes from 2018. 
 
