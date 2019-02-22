@@ -8,17 +8,12 @@ This is the data source for `median hours of summertime fog` in my project "Unde
 
 2: Get the shapefiles for each neighborhood, available through [DataSF](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods/p5b7-5n3h).
 
-3: Calculate the mean hours of fog per neighborhood, in a GIS software like [QGIS](.
+3: Calculate the mean hours of fog per neighborhood, in a GIS software like [QGIS](https://www.qgis.org/en/site/).
 
-1: Download the 311 reports data available through DataSF's [portal](https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6).
-
-2: Generate a table with every encampment report and its set of [coordinates](encampmentsPerCapita.R) to assign each encampment report to a neighborhood. 
-
-3: Match each report to a neighborhood, with the Python [script](reportPlusNeighborhood.py).
-
-4: Generate a table with each neighborhood and the per capita encampments from 2018. 
-
+Here's my [QGIS file](FogbyNeighborhood.qgz) with the fog analysis.
 
 ## Acknowledgements
 
-Thanks to the [GIS Stack Exchange](https://gis.stackexchange.com/questions/250172/finding-out-if-coordinate-is-within-shapefile-shp-using-pyshp/250195) for helping with the Python script to match incidents to neighborhoods. 
+Thanks to the [GIS Stack Exchange](https://gis.stackexchange.com/questions/311573/how-do-i-turn-a-fog-belt-zone-raster-map-into-a-geographic-map-of-expected-fog/311580?noredirect=1#comment507826_311580) for helping with analytics the summertime fog raster files.
+
+Additionally, thank you to Dr. Alicia Torregrosa from the Western Geographic Science Center for explaining the summertime fog research. I encourage you to see her excellent [map](http://journal.baygeo.org/karlthefog/) depicting fog and low cloud cover in the San Francisco Bay Area.
