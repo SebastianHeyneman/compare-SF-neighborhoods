@@ -10,7 +10,7 @@ This is the data source for `median hours of summertime fog` in my project "Unde
 
 3: Calculate the mean hours of fog per neighborhood, in a GIS software like [QGIS](https://www.qgis.org/en/site/).
 
-Here's my [QGIS file](FogbyNeighborhood.qgz) with the fog analysis.
+This is my [QGIS file](FogbyNeighborhood.qgz) with the fog analysis.
 
 ## Acknowledgements
 
