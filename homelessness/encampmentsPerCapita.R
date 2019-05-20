@@ -31,3 +31,4 @@ reportsPerNeighorhood <- cases %>%
 
 #export to CSV
 write.table(reportsPerNeighorhood, file = "reportsPerNeighorhood.csv", row.names =FALSE, col.names = TRUE,sep = ",")
+ 
