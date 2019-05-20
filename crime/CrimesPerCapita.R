@@ -9,7 +9,7 @@ neighborhoods <- read.csv("/Volumes/NONAME/user/Projects/Blog/Neighborhoods/SanF
 #assign each crime to a neighborhood
 incidents <- reports %>% filter(year == "2018") %>% 
   mutate(IncidntNum = as.factor(IncidntNum),
-         latitude=X,
+         latitude=X, 
          longitude=Y) %>%
   select(IncidntNum, latitude, longitude) %>%
   unique()
