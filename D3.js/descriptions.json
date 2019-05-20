@@ -1,0 +1,14 @@
+{
+	"default": "Choose a dataset from the dropdown and then mouse over any neighborhood to explore.",
+	"population": "Number of people in Thousands, 2016. Source: <a href='http://default.sfplanning.org/publications_reports/SF_NGBD_SocioEconomic_Profiles/2012-2016_ACS_Profile_Neighborhoods_Final.pdf' target='_blank'>American Community Survey</a>",
+	"popdensityperacre": "Number of people per acre in Thousands, 2016. Source: <a href='http://default.sfplanning.org/publications_reports/SF_NGBD_SocioEconomic_Profiles/2012-2016_ACS_Profile_Neighborhoods_Final.pdf' target='_blank'>American Community Survey</a>",
+	"percapitaincome": "Average income earned per person, 2016. Source: <a href='http://default.sfplanning.org/publications_reports/SF_NGBD_SocioEconomic_Profiles/2012-2016_ACS_Profile_Neighborhoods_Final.pdf' target='_blank'>American Community Survey</a>",
+	"percentnonwhite": "Non-White percent of population, 2016. Source: <a href='http://default.sfplanning.org/publications_reports/SF_NGBD_SocioEconomic_Profiles/2012-2016_ACS_Profile_Neighborhoods_Final.pdf' target='_blank'>American Community Survey</a>",
+	"percentinpoverty": "Percent of population with earnings below the poverty line, 2016. Source: <a href='http://default.sfplanning.org/publications_reports/SF_NGBD_SocioEconomic_Profiles/2012-2016_ACS_Profile_Neighborhoods_Final.pdf' target='_blank'>American Community Survey</a>",
+	"medianhomevalue": "Median home value, 2016. Source: <a href='http://default.sfplanning.org/publications_reports/SF_NGBD_SocioEconomic_Profiles/2012-2016_ACS_Profile_Neighborhoods_Final.pdf' target='_blank'>American Community Survey</a>",
+	"unemploymentrate": "Jobless share of the labor force, 2016. Source: <a href='http://default.sfplanning.org/publications_reports/SF_NGBD_SocioEconomic_Profiles/2012-2016_ACS_Profile_Neighborhoods_Final.pdf' target='_blank'>American Community Survey</a>",
+	"percapitacriminalarrests": "Rate of Criminal Arrests per 1,000 residents, 2018. Source: <a href='https://github.com/SeabassWells/understand-sf/tree/master/crime' target='_blank'>DataSF Crime Portal</a>",
+	"percapitaencampments": "Rate of 311 Encampment Reports per 1,000 residents, 2018. Source: <a href='https://github.com/SeabassWells/understand-sf/tree/master/homelessness' target='_blank'>DataSF 311 Portal</a>",
+	"medianhoursofsummerfog": "Average hours of summertime fog and low cloud cover, 1999-2009. Source: <a href='https://github.com/SeabassWells/understand-sf/tree/master/fog' target='_blank'>Climate Commons</a>",
+	"percentinliquefaction": "Percent of land area in a Liquefaction or Landslide zone, 2018. Source: <a href='https://github.com/SeabassWells/understand-sf/tree/master/liquefaction' target='_blank'>DataSF Seismic Hazard Zones</a>"
+}
