@@ -15,4 +15,4 @@ This is my [QGIS file](liquefaction.qgz) with the seismic hazard zone analysis.
 ## Acknowledgements
 
 Thanks to the [GIS Stack Exchange](https://gis.stackexchange.com/questions/313149/how-do-i-find-the-percent-overlap-between-two-shapefiles-in-qgis/313156#313156) for helping with analysis on the shapefiles.
-
+ 
