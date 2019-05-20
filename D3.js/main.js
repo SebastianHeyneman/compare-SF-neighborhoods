@@ -20,18 +20,10 @@ var svg = d3.select("body .viz-row")
 //Define path generator
 var path = d3.geoPath()
 
-//
-// var a = "rgb(0, 227, 198)"
-// var b = "rgb(190, 148, 188)"
-// var colorCheck = d3.interpolateRgb(a, b)
-
-// var colorCheck = d3.interpolateRgb("blue", "red");
-
 var color = d3.scaleLinear()
 .range([0,255])
 
 var colorcmyk = d3.scaleLinear()
-// .range([1,0])
 .range([0,1])
 
 var tooltip = d3.select("body .viz-row").append("div")
@@ -42,8 +34,6 @@ var tooltip = d3.select("body .viz-row").append("div")
 
 // load the dataset specified in the dropdown
 function displayData(dataset) {
-	// var max = []
-
 	console.log("displayData executed on " + dataset);
 
 	// load the csv file with all the data
@@ -88,9 +78,6 @@ function displayData(dataset) {
 
 	}
 
-		// max = d3.max(data, function(d) { return parseFloat(d[dataset]); })
-		// console.log(max)
-
 		//Load in GeoJSON data with all the json
 		d3.json("bs.json", function(json) {
 			// json.transform.translate = [100,0]
@@ -116,8 +103,8 @@ function displayData(dataset) {
 
 			//Bind data and create one path per GeoJSON feature
 			var projection = d3.geoIdentity()
-											.reflectY(true)
-											.fitSize([w,h],jsonClone)
+					.reflectY(true)
+					.fitSize([w,h],jsonClone)
 
 			var pathFlipped = d3.geoPath()
 			.projection(projection);
@@ -422,9 +409,6 @@ function displayData(dataset) {
 	});
 
 };
-
-// https://socviz.co/maps.html#map-u.s.-state-level-data
-// I like those colors a lot ^
 
 //Display text function
 function displayInformation(dataset) {
