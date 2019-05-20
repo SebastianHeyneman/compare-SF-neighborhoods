@@ -34,7 +34,7 @@ for shape in sf.shapeRecords():
 #write the output CSV with each incident and its coordinates
 with open(fileName) as csvfile:
     reader = csv.DictReader(csvfile)
-    for row in reader:
+    for row in reader: 
         coor = (row['latitude'],row['longitude'])
         rlat = float(row['latitude'])
         rlong = float(row['longitude'])
