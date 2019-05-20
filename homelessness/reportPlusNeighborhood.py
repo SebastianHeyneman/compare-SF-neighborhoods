@@ -57,7 +57,7 @@ for j in coorDict:
             neighborhood = k
             entry = [entry, neighborhood]
             rows.append(entry)
-
+ 
 #write the completed file
 with open("reportsMatchedNeighborhood.csv", "w") as f:
     writer = csv.writer(f)
