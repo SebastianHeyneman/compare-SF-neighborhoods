@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<style>
+
+/* .counties {
+  fill: none;
+} */
+
+/* .states {
+  fill: none;
+  stroke-width: 20;
+  stroke: #9400D3;
+  stroke-linejoin: round;
+} */
+
+/* path {
+  stroke: #737373;
+  stroke-width: .1;
+} */
+
+.header {
+    font-family: Garamond;
+}
+
+#intro-text {
+  font-size: 1em;
+  font-family: Palatino, sans-serif;
+}
+
+
+
+
+/* stroke: rgb(255, 255, 255);
+stroke-width: .5px */
+
+</style>
+<!--
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script> -->
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h1 class="header"> A Walk through the Neighorhoods </h1>
+      </div>
+    </div>
+    <!-- begin content -->
+    <div class="row">
+      <div class="col-md-8 offset-md-2 blurb-row">
+        <p id="intro-text">People say that San Francisco is many cities, crumpled into one. Pick which dataset is relevant to you and see how it varies across the city.</p>
+
+
+  <div class="dropdown">
+  	<select class="select_box" id="opts">
+  		<p></p>
+  		<option value="default">Select a dataset</option>
+  		<option value="population">Population</option>
+  		<option value="popdensityperacre">Population Density</option>
+  		<option value="percapitaincome">Income</option>
+      <option value="percentnonwhite">Racial Diversity</option>
+      <option value="percentinpoverty">Poverty</option>
+      <option value="medianhomevalue">Home Value</option>
+      <option value="unemploymentrate">Unemployment</option>
+      <option value="percapitacriminalarrests">Crime</option>
+      <option value="percapitaencampments">Homelessness</option>
+      <option value="medianhoursofsummerfog">Fog</option>
+      <option value="percentinliquefaction">Liquefaction</option>
+  	</select>
+  </div>
+					</div>
+				</div>
+
+<!-- viz row -->
+<div class="row">
+  <div class="col-md-8 offset-md-2 viz-row">
+  </div>
+</div>
+</div>
+
+<script src="w3color.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script type="text/javascript" src="http://d3js.org/d3.v4.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+
+
+</body>
+
