@@ -10,5 +10,5 @@
 	"percapitacriminalarrests": "Rate of Criminal Arrests per 1,000 residents, 2018. Source: <a href='https://github.com/SeabassWells/understand-sf/tree/master/crime' target='_blank'>DataSF Crime Portal</a>",
 	"percapitaencampments": "Rate of 311 Encampment Reports per 1,000 residents, 2018. Source: <a href='https://github.com/SeabassWells/understand-sf/tree/master/homelessness' target='_blank'>DataSF 311 Portal</a>",
 	"medianhoursofsummerfog": "Average hours of summertime fog and low cloud cover, 1999-2009. Source: <a href='https://github.com/SeabassWells/understand-sf/tree/master/fog' target='_blank'>Climate Commons</a>",
-	"percentinliquefaction": "Percent of land area in a Liquefaction or Landslide zone, 2018. Source: <a href='https://github.com/SeabassWells/understand-sf/tree/master/liquefaction' target='_blank'>DataSF Seismic Hazard Zones</a>"
+	"percentinliquefaction": "Percent of land area in a Landslide or Liquefaction zone, 2018. Source: <a href='https://github.com/SeabassWells/understand-sf/tree/master/liquefaction' target='_blank'>DataSF Seismic Hazard Zones</a>"
 }
